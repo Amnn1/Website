@@ -2,19 +2,24 @@
     border-bottom: 1px solid #ccc;
 }
 .main-navbar .top-navbar{
-    background-color: #128061;
+    background-color: #91CEFF;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .main-navbar .top-navbar .brand-name{
-    color: #fff;
+    color: #1C7293;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 39px;
+    font-style: italic;
+
 }
 .main-navbar .top-navbar .nav-link{
     color: #fff;
     font-size: 16px;
     font-weight: 500;
 }
-.main-navbar .top-navbar .dropdown-menu{
+/* .main-navbar .top-navbar .dropdown-menu{
     padding: 0px 0px;
     border-radius: 0px;
 }
@@ -22,24 +27,24 @@
     padding: 8px 16px;
     border-bottom: 1px solid #ccc;
     font-size: 14px;
-}
-.main-navbar .top-navbar .dropdown-menu .dropdown-item i{
+} */
+/* .main-navbar .top-navbar .dropdown-menu .dropdown-item i{
     width: 20px;
     text-align: center;
     color: rgb(240, 193, 40);
     font-size: 14px;
-    /* navbarDropdown text setting */
-}
+     navbarDropdown text setting!! 
+} */
+
 .main-navbar .navbar{
     padding: 0px;
-    background-color: #ddd;
+    background-color: #0060CA;
 }
 .main-navbar .navbar .nav-item .nav-link{
     padding: 8px 20px;
-    font-size: 17px;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
     font-style: normal;
     color: black;
 }
@@ -55,4 +60,20 @@
         font-size: 12px;
         padding: 8px 10px;
     }
+}
+.Hero_Content{
+    background-color: red;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+.LHalf{
+    background-color: green;
+    width: 60vw;
+    height: 100vh;
+}
+.RHalf{
+    background-color: blue;
+    width: 40vw;
+    height: 100vh;
 }
