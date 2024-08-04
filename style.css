@@ -19,23 +19,6 @@
     font-size: 16px;
     font-weight: 500;
 }
-/* .main-navbar .top-navbar .dropdown-menu{
-    padding: 0px 0px;
-    border-radius: 0px;
-}
-.main-navbar .top-navbar .dropdown-menu .dropdown-item{
-    padding: 8px 16px;
-    border-bottom: 1px solid #ccc;
-    font-size: 14px;
-} */
-/* .main-navbar .top-navbar .dropdown-menu .dropdown-item i{
-    width: 20px;
-    text-align: center;
-    color: rgb(240, 193, 40);
-    font-size: 14px;
-     navbarDropdown text setting!! 
-} */
-
 .main-navbar .navbar{
     padding: 0px;
     background-color: #0060CA;
@@ -62,18 +45,36 @@
     }
 }
 .Hero_Content{
-    background-color: red;
+    /* background-color: red; */
     width: 100vw;
-    height: 90vh;
+    height: 70vh;
     display: flex;
 }
-.LHalf{
-    background-color: green;
-    width: 60vw;
-    height: 100vh;
+.halfs{
+    border: #0060CA 2px solid;
+    margin: 7px 7px;
+    padding: 7px 7px;
+    background-color: #60a3ebb3;
 }
-.RHalf{
-    background-color: blue;
+#lhalf{
+    width: 60vw;
+}
+#rhalf{
     width: 40vw;
-    height: 100vh;
+    position: relative;
+    /* background-image: url('imgs/bgimage.jpg'); */
+    background-position: center;
+    background-size: cover;
+}
+#pdtimg {
+    width: fit-content;
+    height: fit-content;    
+    position: relative;
+    top: 10em;
+    left: 15em;
+}
+#pdtimg img{
+    position: relative;
+    top: -90px;
+    width: 20em;
 }
