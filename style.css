@@ -1,80 +1,76 @@
-.main-navbar{
-    border-bottom: 1px solid #ccc;
+*{
+    margin: 0;
+    padding: 0;
 }
-.main-navbar .top-navbar{
-    background-color: #91CEFF;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.header{
+    background-color: #FABC41;
+    padding: 10px;
 }
-.main-navbar .top-navbar .brand-name{
-    color: #1C7293;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 39px;
-    font-style: italic;
-
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
 }
-.main-navbar .top-navbar .nav-link{
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-}
-.main-navbar .navbar{
-    padding: 0px;
-    background-color: #0060CA;
-}
-.main-navbar .navbar .nav-item .nav-link{
-    padding: 8px 20px;
-    font-size: 18px;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.QR a{
+    text-decoration: none;
     color: black;
 }
-.main-navbar .navbar .nav-item .nav-link:hover{
-    font-size: 19px;
-    color: black;
-    transition: 0.4s;
-    box-shadow: 0px 0px 2px;
-}
-
-@media only screen and (max-width: 600px) {
-    .main-navbar .top-navbar .nav-link{
-        font-size: 12px;
-        padding: 8px 10px;
-    }
-}
-.Hero_Content{
-    /* background-color: red; */
-    width: 100vw;
-    height: 70vh;
+.QR ul{
+    margin-top: 12px;
+    margin-left: 7px;
+    gap: 20px;
     display: flex;
 }
-.halfs{
-    border: #0060CA 2px solid;
-    margin: 7px 7px;
-    padding: 7px 7px;
-    background-color: #60a3ebb3;
+.QR li{
+    text-transform: capitalize;
+    font-size: 1.2em;
+    font-family: "Niramit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    list-style: none;
 }
-#lhalf{
-    width: 60vw;
+.logo{
+    font-family: "Niramit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: capitalize; 
+    letter-spacing: 12px;
 }
-#rhalf{
-    width: 40vw;
-    position: relative;
-    /* background-image: url('imgs/bgimage.jpg'); */
-    background-position: center;
-    background-size: cover;
+.login{
+    display: flex;
+    margin: 11px;
+    gap: 20px;
+    text-transform: capitalize;
+    font-family: "Niramit", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
 }
-#pdtimg {
-    width: fit-content;
-    height: fit-content;    
-    position: relative;
-    top: 10em;
-    left: 15em;
+#login{
+    border: none;
+    border-radius: 12px;
+    background-color: transparent;
+    height: 35px;
+    width: 85px;
 }
-#pdtimg img{
-    position: relative;
-    top: -90px;
-    width: 20em;
+#signup{
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    height: 35px;
+    width: 85px;
+}
+#login a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+#signup a{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+#shit{
+    height: 100vh;
+    width: 100vw;
 }
